@@ -1,8 +1,11 @@
 
 using UnityEngine;
 
-namespace Nasser.io.DesignPatterns
+namespace Nasser.io.DesignPatterns.SINGLETON
 {
+    //
+    // SINGLETON is a single instance in the games Like the game manager
+
     public class SINGLETON<T> : MonoBehaviour where T : MonoBehaviour
     {
         public static T instance;
