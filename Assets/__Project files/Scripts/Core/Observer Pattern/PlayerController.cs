@@ -1,12 +1,14 @@
 
 using UnityEngine;
+using DG.Tweening;
+using System.Collections;
 
 namespace Nasser.io.DesignPatterns.Observer
 {
     public class PlayerController : MonoBehaviour
     {
         int health;
-
+       
         public void SetPlayerHealth(int addedAmount)
         {
 
@@ -33,5 +35,7 @@ namespace Nasser.io.DesignPatterns.Observer
         {
             GameManager.Damage -= OnDamage;
         }
+
+        
     }
 }

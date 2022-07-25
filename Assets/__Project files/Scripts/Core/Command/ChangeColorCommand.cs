@@ -7,6 +7,8 @@ namespace Nasser.io.DesignPatterns
         LightBulpController bulpController;
 
         Color previousColor;
+
+        
         public ChangeColorCommand(LightBulpController _lightBulp)
         {
             bulpController = _lightBulp;
